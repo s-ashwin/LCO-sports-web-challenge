@@ -1,0 +1,156 @@
+html,body{
+    width: 100%;
+    background-color: rgb(15,4,66);
+}
+.navbar{
+    background-color:  rgb(26,26,26);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+}
+.navbar-brand,
+.navbar-nav a {
+    line-height: 60px;
+ 
+}
+.navbar-brand{
+    font-weight: 900;
+    font-size: 30px;
+     color: red;
+     font-family: 'Bangers', cursive;
+ 
+}
+.navbar-nav a{
+   float: right;
+}
+.home{
+    height: fit-content;
+    width: 100%;
+    min-height: 100vh;
+    max-height: fit-content;
+    background-color: rgb(26,26,26);
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#home{
+    
+}
+
+.branding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    font-family: 'Bangers', cursive;
+    text-shadow: 3px 3px 3px black;
+    font-size: 60px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.branding img{
+    filter: drop-shadow(3px 3px 5px black);
+}
+.btn{
+    
+    box-shadow: 3px 3px 3px black;
+}
+#about{
+    position: relative;
+}
+.carousel .carousel-item{
+    height: 500px;
+    background-color: black;
+    opacity: 0.4;
+}
+.carousel-item img {
+    object-fit:cover;
+   
+}
+.abtcont{
+    position: absolute;
+    z-index: 5;
+
+    text-align: center;
+    color:white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 900;
+}
+.tour{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(15,4,66);
+    margin: 0;
+}
+
+.art{
+    padding-right: 0;
+}
+.art img{
+    float: right;
+    
+}
+.to{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(223,40,142);
+    font-family: 'Bangers', cursive;
+    text-shadow: 3px 3px 3px black;
+}
+.to h1{
+    color: rgb(108,208,199);
+    font-size: 100px;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(15,4,66);
+    padding-bottom: 50px;
+}
+.team div{
+   color: rgb(108,208,199);
+   text-align: center;
+   font-family: 'Bangers', cursive;
+}
+#tour h1, #yt h1{
+    color: rgb(108,208,199);
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    background-color: rgb(15,4,66);
+    margin: 30px 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15,4,66);
+}
+#yt{
+    padding: 50px 0;
+}
+@media (max-width: 575.98px) { 
+    .carousel .carousel-item{
+        height: fit-content;
+    }
+    .abtcont{
+        font-size: small;
+    }
+    .to{
+        padding: 20px 0;
+    }
+    .to h1{
+        font-size: 60px;
+    }
+    .container iframe{
+        width: 100%;
+        
+    }
+    
+ }
