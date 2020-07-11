@@ -83,7 +83,6 @@ html,body{
 }
 .art img{
     float: right;
-    
 }
 .to{
     text-align: center;
@@ -114,7 +113,6 @@ html,body{
     color: rgb(108,208,199);
     text-align: center;
     font-family: 'Bangers', cursive;
-    background-color: rgb(15,4,66);
     margin: 30px 0;
 }
 #yt .container{
@@ -127,10 +125,26 @@ html,body{
 #quest .card{
     margin: 20px 0;
 }
+#quest .card-header{
+    font-weight: bold;
+}
+#quest .card-body p{
+    font-size: 13px;
+   
+}
+#quest .card body{
+    padding: 0;
+}
+footer{
+    color: rgb(108,208,199);
+}
 @media (max-width: 575.98px) { 
     .branding {
         font-size: 40px;
         margin-bottom: 10px;
+    }
+    .art{
+        display: none;
     }
     .carousel .carousel-item{
         height: fit-content;
@@ -143,6 +157,7 @@ html,body{
     }
     .to{
         padding: 20px 0;
+        background-color: white;
     }
     .to h1{
         font-size: 60px;
