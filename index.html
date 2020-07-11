@@ -17,9 +17,9 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
                   <a class="nav-item nav-link " href="#">Home <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="#">About Us</a>
-                  <a class="nav-item nav-link" href="#">FAQ</a>
-                  <a class="nav-item nav-link " href="#">Contact Us</a>
+                  <a class="nav-item nav-link" href="#about">About Us</a>
+                  <a class="nav-item nav-link" href="#quest">FAQ</a>
+                  <a class="nav-item nav-link " href="#sticky-footer">Contact Us</a>
                 </div>
               </div>
           </nav>
@@ -32,7 +32,8 @@
                 Go fight for it team!
                 <div class="but">
                     <button class="btn " data-toggle="modal" data-target="#staticBackdrop">Sign In</button>
-                    <button class="btn " data-toggle="modal" data-target="#staticBackdrop">Sign Up</button></div>
+                    
+                </div>
                 
             </div>
             <div class=" col-md-6"> 
@@ -153,17 +154,30 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                  <h5 class="modal-title" id="staticBackdropLabel">Sign In</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  ...
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                       
+                        
+                      </form>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Understood</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" >Sign Up</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign In</button>
+                 
                 </div>
               </div>
             </div>
