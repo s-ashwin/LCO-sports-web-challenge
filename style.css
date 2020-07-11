@@ -13,13 +13,6 @@ html,body{
     line-height: 60px;
     text-shadow: 0px 0px 1px grey;
 }
-.navbar-brand{
-    font-weight: 900;
-    font-size: 30px;
-     color: red;
-     font-family: 'Bangers', cursive;
- 
-}
 .navbar-nav a{
    float: right;
 }
@@ -37,7 +30,7 @@ html,body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: red;
+    color: rgb(219,25,40);
     font-family: 'Bangers', cursive;
     text-shadow: 3px 3px 3px black;
     font-size: 60px;
@@ -47,8 +40,10 @@ html,body{
 .branding img{
     filter: drop-shadow(3px 3px 5px black);
 }
-.btn{
-    
+.branding .btn{
+    font-family: sans-serif;
+    font-weight: 900;
+    background-color: rgb(255,143,38);
     box-shadow: 3px 3px 3px black;
 }
 #about{
@@ -66,13 +61,15 @@ html,body{
 .abtcont{
     position: absolute;
     z-index: 5;
-
     text-align: center;
     color:white;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-weight: 900;
+}
+.abtcont h1{
+    font-family: 'Bangers', cursive;;
 }
 .tour{
     width: 100%;
@@ -106,35 +103,43 @@ html,body{
     display: flex;
     justify-content: center;
     margin: 0;
-    background-color: rgb(15,4,66);
     padding-bottom: 50px;
 }
 .team div{
-   color: rgb(108,208,199);
+   color: rgb(255,143,38);
    text-align: center;
    font-family: 'Bangers', cursive;
 }
-#tour h1, #yt h1{
+#tour h1, #yt h1, #quest h1{
     color: rgb(108,208,199);
     text-align: center;
     font-family: 'Bangers', cursive;
     background-color: rgb(15,4,66);
     margin: 30px 0;
 }
-.container{
+#yt .container{
     display: flex;
     justify-content: center;
-    background-color: rgb(15,4,66);
 }
 #yt{
     padding: 50px 0;
 }
+#quest .card{
+    margin: 20px 0;
+}
 @media (max-width: 575.98px) { 
+    .branding {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
     .carousel .carousel-item{
         height: fit-content;
     }
     .abtcont{
         font-size: small;
+    }
+    .team{
+        padding-bottom: 0;
     }
     .to{
         padding: 20px 0;
